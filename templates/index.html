@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="#" class="logo">
+                    <img src="{{url_for('static', filename='images/eco-light.png')}}" alt="light">
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Блог и статьи</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Форум</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Рекомендации</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Обзоры</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">События</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="user-actions">
+                    <li class="user-actions__item">
+                        <a href="#" class="user-actions__link"><img src="{{url_for('static', filename='images/user.png')}}" alt="user"></a>
+                    </li>
+                    <li class="user-actions__item">
+                        <a href="#" class="user-actions__link"><img src="#" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+</body>
+</html>

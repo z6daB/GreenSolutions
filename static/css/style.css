@@ -1,0 +1,51 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::after
+*::before{
+    box-sizing: inherit;
+}
+
+a{
+    tex-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+body{
+
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 140px;
+}
+
+.logo{
+    margin-bottom: 35px;
+}
+
+.menu__list{
+    display: flex;
+    align-items: center;
+    gap: 0 65px;
+}
+
+.user-actions{
+    display: flex;
+    align-items: center;
+    gap: 0 20px
+}
