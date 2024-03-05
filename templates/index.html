@@ -1,46 +1,35 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
-    <title>GreenSolutions</title>
-</head>
-<body marginheight="0", marginwidth="0">
-    <header class="header">
-         <img class="bg" src="{{ url_for('static', filename='images/bg.jpg') }}" alt="bg">
-        <div class="container">
-            <ui class="name__site">Green Solutions</ui>
-            <div class="header__inner">
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">Блог и статьи</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">Форум</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">Рекомендации</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">Обзоры</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">События</a>
-                        </li>
-                    </ul>
-                </nav>
-                <ul class="user-actions">
-                    <li class="user-actions__item">
-                        <a href="#" class="user-actions__link"><img src="{{url_for('static', filename='images/user.png')}}" alt="user"></a>
+{% extends 'base.html' %}
+
+{% block title%}
+GreenSolutions
+{% endblock %}
+
+{% block content %}
+<header class="header">
+    <img class="bg" src="{{ url_for('static', filename='images/bg.jpg') }}" alt="bg">
+    <div class="container">
+        <ui class="name__site">Green Solutions</ui>
+        <div class="header__inner">
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Блог и статьи</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Форум</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Рекомендации</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Обзоры</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">События</a>
                     </li>
                 </ul>
-            </div>
+            </nav>
         </div>
-    </header>
-
-</body>
-</html>
+    </div>
+</header>
+{% endblock %}
