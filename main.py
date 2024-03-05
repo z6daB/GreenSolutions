@@ -1,7 +1,9 @@
-from flask import Flask, render_template
+import flask
+from flask import Flask, render_template, redirect
 from data import db_session
-from data.users import User
 from forms.user import RegisterForm
+from data.users import User
+from sqlalchemy import orm
 
 
 app = Flask(__name__)
