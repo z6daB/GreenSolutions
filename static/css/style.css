@@ -75,6 +75,11 @@ body{
 
 .menu__item {
     font-size: 20px;
+    text-decoration: none;
+}
+
+.menu__item:hover {
+    text-decoration: underline;
 }
 
 
