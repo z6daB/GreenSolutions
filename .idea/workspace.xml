@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bbbd417-eccf-42a2-974e-16c3b3674438" name="Changes" comment="0">
+    <list default="true" id="5bbbd417-eccf-42a2-974e-16c3b3674438" name="Changes" comment="edit bg">
+      <change afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/forms/user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/user.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/user.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -41,14 +45,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;two.files.diff.last.used.file&quot;: &quot;/Users/patsai/PycharmProjects/GreenSolutions/db/blogs.sqlite&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "two.files.diff.last.used.file": "/Users/patsai/PycharmProjects/GreenSolutions/db/blogs.sqlite"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/images" />
@@ -172,7 +177,21 @@
       <option name="project" value="LOCAL" />
       <updated>1709818600930</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="edit bg">
+      <created>1709820712074</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1709820712074</updated>
+    </task>
+    <task id="LOCAL-00013" summary="edit bg">
+      <created>1709820722457</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1709820722457</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,13 +208,13 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
     <MESSAGE value="test page" />
-    <MESSAGE value="edit bg" />
     <MESSAGE value="edit page" />
     <MESSAGE value="creating a database" />
     <MESSAGE value="creating sample for pages and register form" />
     <MESSAGE value="edit" />
     <MESSAGE value="add space" />
     <MESSAGE value="0" />
-    <option name="LAST_COMMIT_MESSAGE" value="0" />
+    <MESSAGE value="edit bg" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit bg" />
   </component>
 </project>
