@@ -6,7 +6,7 @@ GreenSolutions
 
 {% block content %}
 <header>
-    <img class="bg" src="{{ url_for('static', filename='images/bg_main_page.jpg') }}" alt="bg">
+    <img class="bg" src="{{ url_for('static', filename='images/bg.jpg') }}" alt="bg">
     <div class="container">
         <p class="name__site">Green Solutions</p>
         <div class="header__inner">
@@ -29,22 +29,40 @@ GreenSolutions
                     </li>
                 </ul>
             </nav>
+            <div class="tagline">Экология - наша страсть: <br>изменяем мир к лучшему</div>
         </div>
     </div>
 </header>
 <main>
+    <!--волонтеры-->
     <div class="ag-format-container">
         <div class="ag-courses_box">
             <div class="ag-courses_item">
                 <a href="#" class="ag-courses-item_link">
                     <div class="ag-courses-item_bg"></div>
-
                     <div class="ag-courses-item_title">
                         Эковолонтёрство
                     </div>
                 </a>
             </div>
         </div>
+        <div class="volunteer__text">Волонтёры экологического направления помогают оберегать окружающую среду и
+            формируют важные экологические привычки у жителей города. Активисты занимаются озеленением городских
+            и заповедных территорий, транслируют культуру осознанного потребления и информируют
+            о правилах раздельного сбора отходов.
+        </div>
+        <div class="ag-courses_box">
+            <div class="ag-courses_item">
+                <a href="#" class="ag-courses-item_link">
+                    <div class="ag-courses-item_bg"></div>
+                    <div class="ag-courses-item_title">
+                        Экодом
+                    </div>
+                </a>
+            </div>
+        </div>
     </div>
+
+
 </main>
 {% endblock %}
