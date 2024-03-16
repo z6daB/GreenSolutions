@@ -84,6 +84,10 @@ def login():
                                form=form)
     return render_template('login.html', title='Авторизация', form=form)
 
+@app.route('/volunteer')
+def volunteer():
+    return render_template('volunteer.html')
+
 
 # @app.route('/logout')
 # def logout():

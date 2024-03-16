@@ -1,9 +1,15 @@
 {% extends 'base.html' %}
+{% block css %}
+<link rel="stylesheet" href="{{url_for('static', filename='css/volunteer.css')}}">
+{% endblock %}
 
 {% block title%}
 GreenSolutions
 {% endblock %}
 
 {% block content %}
-
+<div class="title">
+    <h1 align="center" class="">Экологическое волонтерство.
+        <br>Инструкция для тех, кто хочет помочь природе, но не знает как</h1>
+</div>
 {% endblock%}

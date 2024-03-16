@@ -1,5 +1,9 @@
 {% extends 'base.html' %}
 
+{% block css %}
+<link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+{% endblock %}
+
 {% block title%}
 GreenSolutions
 {% endblock %}
@@ -38,7 +42,7 @@ GreenSolutions
     <div class="ag-format-container">
         <div class="ag-courses_box_volunteer">
             <div class="ag-courses_item">
-                <a href="#" class="ag-courses-item_link">
+                <a href="/volunteer" class="ag-courses-item_link">
                     <div class="ag-courses-item_bg_volunteer"></div>
                     <div class="ag-courses-item_title_volunteer">
                         Эковолонтёрство

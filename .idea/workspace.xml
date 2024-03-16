@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bbbd417-eccf-42a2-974e-16c3b3674438" name="Changes" comment="add new button">
-      <change afterPath="$PROJECT_DIR$/templates/volunteer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/volunteer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/volunteer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/volunteer.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709837828993</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add new button">
+      <created>1710618692808</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1710618692808</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,6 +238,7 @@
     <MESSAGE value="edit bg" />
     <MESSAGE value="adding the ability to log in to your account" />
     <MESSAGE value="adding a button about volunteers" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding a button about volunteers" />
+    <MESSAGE value="add new button" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new button" />
   </component>
 </project>
