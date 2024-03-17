@@ -126,8 +126,8 @@ body {
     align-items: flex-start;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    top: 800px;
-    left: 60px;
+    top: 100%;
+    left: 2%;
 
 }
 .ag-courses_item {
@@ -185,8 +185,8 @@ body {
     position: absolute;
     width: 968px;
     height: 323px;
-    left: 420px;
-    top: 790px;
+    left: 27%;
+    top: 99%;
 
     font-family: 'News Cycle';
     font-style: normal;
@@ -207,8 +207,8 @@ body {
     align-items: flex-start;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    top: 1150px;
-    left: 1050px;
+    top: 150%;
+    left: 70%;
 
 }
 
@@ -250,8 +250,8 @@ body {
     position: absolute;
     width: 968px;
     height: 323px;
-    left: 60px;
-    top: 1140px;
+    left: 2%;
+    top: 148%;
 
     font-family: 'News Cycle';
     font-style: normal;
@@ -274,8 +274,8 @@ body {
     align-items: flex-start;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    top: 1500px;
-    left: 60px;
+    top: 197%;
+    left: 2%;
 }
 
 .ag-courses-item_bg_technologies {
@@ -316,8 +316,8 @@ body {
     position: absolute;
     width: 968px;
     height: 323px;
-    left: 420px;
-    top: 1500px;
+    left: 27%;
+    top: 196%;
 
     font-family: 'News Cycle';
     font-style: normal;
