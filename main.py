@@ -3,6 +3,8 @@ from flask import Flask, render_template, redirect, request, make_response
 from data import db_session
 from forms.user import RegisterForm, LoginForm
 from data.users import User
+from data.topic import Topic
+from data.comment import Comment
 from sqlalchemy import orm
 from flask_login import LoginManager, login_user
 
@@ -84,9 +86,39 @@ def login():
                                form=form)
     return render_template('login.html', title='Авторизация', form=form)
 
+
 @app.route('/volunteer')
 def volunteer():
     return render_template('volunteer.html')
+
+
+@app.route('/forum', methods=['POST', 'GET'])
+def forum():
+    db_sess = db_session.create_session()
+    if request.method == 'POST':
+        topic = Topic(
+            title=request.form['title'],
+            description=request.form['description']
+        )
+        db_sess.add(topic)
+        db_sess.commit()
+    topics = db_sess.query(Topic).all()
+    return render_template('forum.html', topics=topics)
+
+
+@app.route('/forum/<int:id>', methods=['GET', 'POST'])
+def topic(id):
+    db_sess = db_session.create_session()
+    if request.method == 'POST':
+        comment = Comment(
+            text=request.form['comment'],
+            topicId=id
+        )
+        db_sess.add(comment)
+        db_sess.commit()
+    topic = db_sess.query(Topic).filter(Topic.id == id).scalar()
+    comments = db_sess.query(Comment).filter(Comment.topicId == id).all()
+    return render_template('topic.html', topic=topic, comments=comments)
 
 
 # @app.route('/logout')

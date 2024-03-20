@@ -231,7 +231,7 @@ body {
     top: 150%;
     left: 70%;
 }
-@media screen and (min-width: 1406px) {
+@media screen and (min-width: 1400px) {
     .name__site {
     position: absolute;
     width: 436px;
