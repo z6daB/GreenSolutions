@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bbbd417-eccf-42a2-974e-16c3b3674438" name="Changes" comment="creating a topic page">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/volunteer.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/volunteer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/volunteer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/volunteer.html" afterDir="false" />
+    <list default="true" id="5bbbd417-eccf-42a2-974e-16c3b3674438" name="Changes" comment="edit">
+      <change beforePath="$PROJECT_DIR$/static/css/volunteer.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,7 +264,21 @@
       <option name="project" value="LOCAL" />
       <updated>1710941967289</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="creating a new page">
+      <created>1711210513099</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1711210513099</updated>
+    </task>
+    <task id="LOCAL-00026" summary="edit">
+      <created>1711210648823</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1711210648823</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -284,7 +298,6 @@
     <MESSAGE value="edit page" />
     <MESSAGE value="creating a database" />
     <MESSAGE value="creating sample for pages and register form" />
-    <MESSAGE value="edit" />
     <MESSAGE value="add space" />
     <MESSAGE value="0" />
     <MESSAGE value="edit bg" />
@@ -295,6 +308,8 @@
     <MESSAGE value="editing css" />
     <MESSAGE value="creating a forum page" />
     <MESSAGE value="creating a topic page" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating a topic page" />
+    <MESSAGE value="creating a new page" />
+    <MESSAGE value="edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit" />
   </component>
 </project>
