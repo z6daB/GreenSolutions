@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bbbd417-eccf-42a2-974e-16c3b3674438" name="Changes" comment="creating a forum page">
+    <list default="true" id="5bbbd417-eccf-42a2-974e-16c3b3674438" name="Changes" comment="creating a topic page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/__all_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/__all_models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/forum.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/forum.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/topic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/volunteer.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/volunteer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/volunteer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/volunteer.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710939113040</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="creating a topic page">
+      <created>1710941967289</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1710941967289</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -289,6 +294,7 @@
     <MESSAGE value="create new page and css file" />
     <MESSAGE value="editing css" />
     <MESSAGE value="creating a forum page" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating a forum page" />
+    <MESSAGE value="creating a topic page" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating a topic page" />
   </component>
 </project>
