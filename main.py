@@ -1,12 +1,12 @@
 import flask
-from flask import Flask, render_template, redirect, request, make_response
+from flask import Flask, render_template, redirect, request, make_response, abort
 from data import db_session
 from forms.user import RegisterForm, LoginForm
 from data.users import User
 from data.topic import Topic
 from data.comment import Comment
 from sqlalchemy import orm
-from flask_login import LoginManager, login_user
+from flask_login import LoginManager, login_user, logout_user, current_user
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'yandexlyceum_secret_key'
@@ -74,6 +74,8 @@ def load_user(user_id):
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
+    if current_user.is_authenticated:
+        return render_template('profile.html')
     form = LoginForm()
     if form.validate_on_submit():
         db_sess = db_session.create_session()
@@ -121,10 +123,17 @@ def topic(id):
     return render_template('topic.html', topic=topic, comments=comments)
 
 
-# @app.route('/logout')
-# def logout():
-#     logout_user()
-#     return redirect("/")
+@app.route('/logout')
+def logout():
+    logout_user()
+    return redirect("/")
+
+@app.route('/profile')
+def profile():
+    if current_user.is_authenticated:
+        return render_template('profile.html', user=current_user)
+    else:
+        abort(404)
 
 
 def main():
