@@ -113,6 +113,7 @@ def topic(id):
     db_sess = db_session.create_session()
     if request.method == 'POST':
         comment = Comment(
+            user=current_user.name,
             text=request.form['comment'],
             topicId=id
         )
