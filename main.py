@@ -20,11 +20,6 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/blog')
-def blog():
-    return render_template('blog.html')
-
-
 @app.route('/register', methods=['GET', 'POST'])
 def register():
     form = RegisterForm()
@@ -46,7 +41,7 @@ def register():
         user.set_password(form.password.data)
         db_sess.add(user)
         db_sess.commit()
-        return redirect('/login')
+        return redirect('/')
     return render_template('register.html', title='Регистрация', form=form)
 
 
@@ -112,8 +107,13 @@ def forum():
 def topic(id):
     db_sess = db_session.create_session()
     if request.method == 'POST':
+        if current_user.is_authenticated:
+            user_name = current_user.name
+        else:
+            user_name = 'Anonymous'
+
         comment = Comment(
-            user=current_user.name,
+            user=user_name,
             text=request.form['comment'],
             topicId=id
         )
