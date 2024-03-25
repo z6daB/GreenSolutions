@@ -129,6 +129,7 @@ def logout():
     logout_user()
     return redirect("/")
 
+
 @app.route('/profile')
 def profile():
     if current_user.is_authenticated:
