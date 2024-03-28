@@ -137,6 +137,9 @@ def profile():
     else:
         abort(404)
 
+@app.errorhandler(404)
+def error404(error):
+    return render_template('404.html')
 
 def main():
     db_session.global_init('db/blogs.sqlite')

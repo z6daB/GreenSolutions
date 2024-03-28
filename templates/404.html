@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block css %}
+<link rel="stylesheet" href="{{url_for('static', filename='css/error.css')}}">
+{% endblock %}
+
+{% block content %}
+<div class="error__container">
+    <div class="error__code">
+        <p>4</p>
+        <p>0</p>
+        <p>4</p>
+    </div>
+    <div class="error__title">Страница не найдена</div>
+    <div class="error__description">
+        Кажется, мы не можем найти эту страницу.
+    </div>
+    <form action="/" target="_blank">
+        <button class="action">Домой</button>
+    </form>
+</div>
+{% endblock %}
