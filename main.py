@@ -5,6 +5,7 @@ from forms.user import RegisterForm, LoginForm
 from data.users import User
 from data.topic import Topic
 from data.comment import Comment
+from data.articles import Article
 from sqlalchemy import orm
 from flask_login import LoginManager, login_user, logout_user, current_user
 
@@ -137,9 +138,18 @@ def profile():
     else:
         abort(404)
 
+
+@app.route('/blogs')
+def blogs():
+    db_sess = db_session.create_session()
+    articles = db_sess.query(Article).all()
+    return render_template('blogs.html', articles=articles)
+
+
 @app.errorhandler(404)
 def error404(error):
     return render_template('404.html')
+
 
 def main():
     db_session.global_init('db/blogs.sqlite')

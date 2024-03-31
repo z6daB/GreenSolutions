@@ -8,10 +8,6 @@
 <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
 {% endblock %}
 
-{% block title%}
-GreenSolutions
-{% endblock %}
-
 {% block content %}
 <header>
     <img class="bg" src="{{ url_for('static', filename='images/bg.jpg') }}" alt="bg">
@@ -21,7 +17,7 @@ GreenSolutions
             <nav class="menu">
                 <ul class="menu__list">
                     <li class="menu__item">
-                        <a href="#" class="menu__link text-decoration-none text-reset">Блог и статьи</a>
+                        <a href="/blogs" class="menu__link text-decoration-none text-reset">Блог и статьи</a>
                     </li>
                     <li class="menu__item">
                         <a href="forum" class="menu__link text-decoration-none text-reset">Форум</a>
@@ -54,7 +50,6 @@ GreenSolutions
                         </div>
                     </li>
                 </ul>
-
             </nav>
             <div class="tagline">Экология - наша страсть: <br>изменяем мир к лучшему</div>
         </div>
