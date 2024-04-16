@@ -6,7 +6,7 @@
 {% endblock %}
 
 {% block css %}
-<link rel="stylesheet" href="{{url_for('static', filename='css/article.css')}}">
+<link rel="stylesheet" href="{{url_for('static', filename='css/create_article.css')}}">
 {% endblock %}
 
 {% block content %}
@@ -21,20 +21,29 @@
                 <li class="nav-item">
                     <a class="navbar-brand" aria-current="page" href="/">Домой</a>
                 </li>
-                <li class="nav-item">
-                    <a class="navbar-brand" aria-current="page" href="/blogs">Назад</a>
-                </li>
             </ul>
         </div>
     </div>
 </nav>
 <main>
     <div class="container">
-        <div class="title">{{article.title}}</div>
+        <form accept="/" method="post">
+            <div class="mb-3">
+                <label for="title" class="form-label">Заголовок</label>
+                <input type="text" name="title" class="form-control" id="title" aria-describedby="emailHelp">
+            </div>
 
-        <div class="description">
-            {{article.description}}
-        </div>
+            <div class="mb-3">
+                <label for="short_description" class="form-label">Краткое описание</label>
+                <input type="text" name="short_description" class="form-control" id="exampleInputPassword1">
+            </div>
+
+            <div class="mb-3">
+                <label for="description" class="form-label">Полное описание</label>
+                <input type="text" name="description" class="form-control" id="exampleInputPassword1">
+            </div>
+            <button type="submit" class="btn btn-primary">Отправить</button>
+        </form>
     </div>
 </main>
 {% endblock %}

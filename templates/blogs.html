@@ -38,20 +38,30 @@
             </div>
         </div>
         <div class="display-4">
-            Доступные Статьи
+            Доступные статьи
         </div>
+        {% if articles %}
+        {% for item in articles %}
         <div class="articles">
-            {% for item in articles %}
-                <p class="pb-4 mb-0 big lh-sm border-bottom">
+            <p class="pb-4 mb-0 big lh-sm border-bottom">
                 <strong class="d-block text-gray-dark"> <a href="/blogs/{{item.id}}">{{item.id}}.
                     {{item.title}}</a></strong>
-                {{item.description}}
+                {{item.short_description}}
             </p>
-            {% endfor %}
         </div>
-
+        {% endfor %}
+        {% else %}
+        <div class="display-6 nothing">
+            Пока ничего нет
+        </div>
+        {% endif %}
+        <div>
+            <a href="/create" class="text-decoration-none"><h3>Создать статью</h3></a>
+        </div>
     </div>
+
 </main>
+
 <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>

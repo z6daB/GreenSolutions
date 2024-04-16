@@ -8,7 +8,9 @@
 .description {
     width: 50%;
     line-height: 30px;
+    margin-top: 15px;
 }
+
 
 .title {
     font-family: 'Merriweather';

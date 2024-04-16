@@ -145,11 +145,26 @@ def blogs():
     articles = db_sess.query(Article).all()
     return render_template('blogs.html', articles=articles)
 
+
 @app.route('/blogs/<int:id>', methods=['GET', 'POST'])
 def article(id):
     db_sess = db_session.create_session()
     article = db_sess.query(Article).filter(Article.id == id).scalar()
     return render_template('article.html', article=article)
+
+
+@app.route('/create', methods=['GET', 'POST'])
+def create_article():
+    db_sess = db_session.create_session()
+    if request.method == 'POST':
+        article = Article(
+            title=request.form['title'],
+            short_description=request.form['short_description'],
+            description=request.form['description']
+        )
+        db_sess.add(article)
+        db_sess.commit()
+    return render_template('create_article.html')
 
 
 @app.errorhandler(404)

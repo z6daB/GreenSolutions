@@ -5,15 +5,23 @@
 
 body,
 html {
-    height: 110%;
+    height: 100%;
 }
 
 .container {
   display: flex;
   align-items: center;
-   flex-direction: column;
+  flex-direction: column;
   justify-content: center;
 }
 .articles {
+    overflow: hidden;
     width: 50%;
+}
+
+.nothing {
+    margin-top: 15px;
+}
+footer {
+  margin-top: auto;
 }
