@@ -5,26 +5,15 @@
 
 body,
 html {
-  height: 100%;
+    height: 110%;
 }
 
 .container {
   display: flex;
   align-items: center;
+   flex-direction: column;
   justify-content: center;
-
 }
-#articles {
-    font-family: 'News Cycle';
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 40px;
-    text-align: center;
-    color: #000000;
-}
-
-.article {
-    display: flex !important;
-    align-items: center;
-    justify-content: center;
+.articles {
+    width: 50%;
 }

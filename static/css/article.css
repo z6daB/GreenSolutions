@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  align-items: center;
+   flex-direction: column;
+  justify-content: center;
+}
+
+.description {
+    width: 50%;
+    line-height: 30px;
+}
+
+.title {
+    font-family: 'Merriweather';
+    font-size: 30px;
+    font-weight: 100;
+}

@@ -145,6 +145,12 @@ def blogs():
     articles = db_sess.query(Article).all()
     return render_template('blogs.html', articles=articles)
 
+@app.route('/blogs/<int:id>', methods=['GET', 'POST'])
+def article(id):
+    db_sess = db_session.create_session()
+    article = db_sess.query(Article).filter(Article.id == id).scalar()
+    return render_template('article.html', article=article)
+
 
 @app.errorhandler(404)
 def error404(error):
