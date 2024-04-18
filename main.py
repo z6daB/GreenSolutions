@@ -175,6 +175,13 @@ def news():
     return render_template('news.html', news=news)
 
 
+@app.route('/news/<int:id>', methods=['GET', 'POST'])
+def news_item(id):
+    db_sess = db_session.create_session()
+    item = db_sess.query(News).filter(News.id == id).scalar()
+    return render_template('news_item.html', item=item)
+
+
 @app.errorhandler(404)
 def error404(error):
     return render_template('404.html')
