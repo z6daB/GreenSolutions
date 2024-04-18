@@ -1,1 +1,1 @@
-from . import users, topic, comment, articles
+from . import users, topic, comment, articles, news

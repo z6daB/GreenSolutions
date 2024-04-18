@@ -6,6 +6,7 @@ from data.users import User
 from data.topic import Topic
 from data.comment import Comment
 from data.articles import Article
+from data.news import News
 from sqlalchemy import orm
 from flask_login import LoginManager, login_user, logout_user, current_user
 
@@ -165,6 +166,13 @@ def create_article():
         db_sess.add(article)
         db_sess.commit()
     return render_template('create_article.html')
+
+
+@app.route('/news')
+def news():
+    db_sess = db_session.create_session()
+    news = db_sess.query(News).all()
+    return render_template('news.html', news=news)
 
 
 @app.errorhandler(404)
