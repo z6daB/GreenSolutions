@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bbbd417-eccf-42a2-974e-16c3b3674438" name="Changes" comment="add button to topic`s page">
-      <change afterPath="$PROJECT_DIR$/static/css/news.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/__all_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/__all_models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/db_session.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/db_session.py" afterDir="false" />
+    <list default="true" id="5bbbd417-eccf-42a2-974e-16c3b3674438" name="Changes" comment="add the new page with news">
+      <change afterPath="$PROJECT_DIR$/templates/news_item.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/create_article.css" beforeDir="false" afterPath="$PROJECT_DIR$/data/news.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/create_article.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/create_article.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/news.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blogs.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blogs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/news.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -415,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713352124696</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="add the new page with news">
+      <created>1713439660153</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1713439660153</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -430,7 +433,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="creating sample for pages and register form" />
     <MESSAGE value="add space" />
     <MESSAGE value="0" />
     <MESSAGE value="edit bg" />
@@ -455,6 +457,7 @@
     <MESSAGE value="creating a page where you can create articles" />
     <MESSAGE value="editing page" />
     <MESSAGE value="add button to topic`s page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add button to topic`s page" />
+    <MESSAGE value="add the new page with news" />
+    <option name="LAST_COMMIT_MESSAGE" value="add the new page with news" />
   </component>
 </project>
