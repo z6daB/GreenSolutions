@@ -1,12 +1,12 @@
 .container {
-  display: flex;
-  align-items: center;
-   flex-direction: column;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .description {
-    width: 50%;
+    width: 70%;
     line-height: 30px;
     margin-top: 15px;
 }
