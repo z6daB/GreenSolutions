@@ -248,7 +248,7 @@ body {
     }
     .menu__item {
         right: 2%;
-        font-size: 15px;
+        font-size: 10px;
         text-decoration: none;
     }
     .ag-courses-item_title_volunteer {
@@ -381,7 +381,7 @@ body {
     }
     .menu__item {
         right: 2%;
-        font-size: 20px;
+        font-size: 15px;
         text-decoration: none;
     }
     .ag-courses-item_title_volunteer {
@@ -409,7 +409,7 @@ body {
         align-items: flex-start;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        top: 75%;
+        top: 77%;
         left: 2%;
     }
     .ag-courses_box_house {
@@ -421,7 +421,7 @@ body {
         width: 600px;
         height: 323px;
         left: 30%;
-        top: 72%;
+        top: 77%;
 
         font-family: 'News Cycle';
         font-style: normal;
@@ -508,8 +508,6 @@ body {
     .tagline {
     top: 220px;
     font-size: 25px;
-
-
 }
     .ag-courses-item_link {
         padding: 8px 5px;
@@ -559,6 +557,12 @@ body {
         text-align: center;
         color: #000000;
     }
+
+    .ag-courses_box_house {
+        top: 151%;
+        left: 70%;
+    }
+
     .ag-courses_box_technologies {
         position: absolute;
         display: -webkit-box;
@@ -692,6 +696,11 @@ body {
         line-height: 59px;
         text-align: center;
         color: #000000;
+    }
+
+    .ag-courses_box_house {
+        top: 151%;
+        left: 73%;
     }
 
     .ag-courses_box_technologies {
