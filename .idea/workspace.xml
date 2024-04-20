@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bbbd417-eccf-42a2-974e-16c3b3674438" name="Changes" comment="editing">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/article.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/article.css" afterDir="false" />
+    <list default="true" id="5bbbd417-eccf-42a2-974e-16c3b3674438" name="Changes" comment="editing css file">
+      <change afterPath="$PROJECT_DIR$/static/images/apartment.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/forest.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/house.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/plastic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/turtle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/house.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -436,7 +442,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713448749984</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="editing css file">
+      <created>1713517489788</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1713517489788</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -451,7 +464,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="0" />
     <MESSAGE value="edit bg" />
     <MESSAGE value="adding the ability to log in to your account" />
     <MESSAGE value="adding a button about volunteers" />
@@ -476,6 +488,7 @@
     <MESSAGE value="add button to topic`s page" />
     <MESSAGE value="add the new page with news" />
     <MESSAGE value="editing" />
-    <option name="LAST_COMMIT_MESSAGE" value="editing" />
+    <MESSAGE value="editing css file" />
+    <option name="LAST_COMMIT_MESSAGE" value="editing css file" />
   </component>
 </project>
