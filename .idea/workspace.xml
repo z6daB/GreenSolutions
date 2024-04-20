@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bbbd417-eccf-42a2-974e-16c3b3674438" name="Changes" comment="editing css file">
-      <change afterPath="$PROJECT_DIR$/static/images/apartment.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/forest.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/house.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/plastic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/turtle.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/house.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="5bbbd417-eccf-42a2-974e-16c3b3674438" name="Changes" comment="create new page">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,13 +100,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707758177484</updated>
-    </task>
-    <task id="LOCAL-00001" summary="1">
-      <created>1707758207832</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1707758207832</updated>
     </task>
     <task id="LOCAL-00002" summary="test page">
       <created>1707915319627</created>
@@ -449,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713517489788</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="create new page">
+      <created>1713615299044</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1713615299046</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -464,7 +459,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="edit bg" />
     <MESSAGE value="adding the ability to log in to your account" />
     <MESSAGE value="adding a button about volunteers" />
     <MESSAGE value="add new button" />
@@ -489,6 +483,7 @@
     <MESSAGE value="add the new page with news" />
     <MESSAGE value="editing" />
     <MESSAGE value="editing css file" />
-    <option name="LAST_COMMIT_MESSAGE" value="editing css file" />
+    <MESSAGE value="create new page" />
+    <option name="LAST_COMMIT_MESSAGE" value="create new page" />
   </component>
 </project>
