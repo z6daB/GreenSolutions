@@ -32,24 +32,29 @@ def update_db():
     channel_username = 'GreenSolutionsChannel'
     for message in client.iter_messages(channel_username, limit=1):
         if message.text:
-            data = (message.text).split('*')
-            check_title = data[0]
-            short_description = data[1]
-            description = data[2]
-            query = select([news_table.c.title]).where(news_table.c.title == check_title)
+            try:
+                data = (message.text).split('*')
+                check_title = data[0]
+                short_description = data[1]
+                description = data[2]
 
-            result = session.execute(query)
+                query = select([news_table.c.title]).where(news_table.c.title == check_title)
 
-            found_title = result.scalar()
+                result = session.execute(query)
 
-            if found_title:
-                print('Новых записей пока нет')
-                pass
-            else:
-                session.execute(news_table.insert().values(title=check_title, short_description=short_description,
-                                                           description=description))
-                session.commit()
-                print('Изменения внесены')
+                found_title = result.scalar()
+
+                if found_title:
+                    print('Новых записей пока нет')
+                    pass
+                else:
+                    session.execute(news_table.insert().values(title=check_title, short_description=short_description,
+                                                               description=description))
+                    session.commit()
+                    print('Изменения внесены')
+            except Exception as ex:
+                print(f'Неправильный формат сообщения\n'
+                      f'Ошибка: {ex}')
     client.disconnect()
     session.close()
 
@@ -57,6 +62,6 @@ def update_db():
 while True:
     try:
         update_db()
-        time.sleep(60*60*5)
+        time.sleep(60*60*6)
     except KeyboardInterrupt:
         break

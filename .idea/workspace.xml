@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bbbd417-eccf-42a2-974e-16c3b3674438" name="Changes" comment="editing pages">
+    <list default="true" id="5bbbd417-eccf-42a2-974e-16c3b3674438" name="Changes" comment="edit">
       <change afterPath="$PROJECT_DIR$/parser/keys.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parser/parser.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/parser/session_name.session" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/parser/parser.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
       <recent name="$PROJECT_DIR$/static/images" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.parser">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GreenSolutions" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,8 +84,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="parser" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GreenSolutions" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/parser" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parser/parser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.parser" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.main" />
       </list>
@@ -102,20 +124,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707758177484</updated>
-    </task>
-    <task id="LOCAL-00005" summary="edit page">
-      <created>1709584062153</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1709584062153</updated>
-    </task>
-    <task id="LOCAL-00006" summary="creating a database">
-      <created>1709629632732</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1709629632732</updated>
     </task>
     <task id="LOCAL-00007" summary="edit">
       <created>1709664628791</created>
@@ -446,7 +454,21 @@
       <option name="project" value="LOCAL" />
       <updated>1713793938651</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="add parser">
+      <created>1713794767612</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1713794767612</updated>
+    </task>
+    <task id="LOCAL-00055" summary="edit">
+      <created>1713794819834</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1713794819834</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -461,7 +483,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adding a button about volunteers" />
     <MESSAGE value="add new button" />
     <MESSAGE value="create new page and css file" />
     <MESSAGE value="editing css" />
@@ -469,7 +490,6 @@
     <MESSAGE value="creating a topic page" />
     <MESSAGE value="creating a new page" />
     <MESSAGE value="edit some pages" />
-    <MESSAGE value="edit" />
     <MESSAGE value="e" />
     <MESSAGE value="editing some code" />
     <MESSAGE value="editing css code" />
@@ -486,6 +506,8 @@
     <MESSAGE value="create new page" />
     <MESSAGE value="editing css file" />
     <MESSAGE value="editing pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="editing pages" />
+    <MESSAGE value="add parser" />
+    <MESSAGE value="edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit" />
   </component>
 </project>
