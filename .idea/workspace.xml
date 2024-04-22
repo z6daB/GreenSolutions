@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bbbd417-eccf-42a2-974e-16c3b3674438" name="Changes" comment="create new page">
+    <list default="true" id="5bbbd417-eccf-42a2-974e-16c3b3674438" name="Changes" comment="editing css file">
+      <change afterPath="$PROJECT_DIR$/parser/keys.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parser/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parser/session_name.session" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +60,7 @@
       <recent name="$PROJECT_DIR$/static/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/parser" />
       <recent name="$PROJECT_DIR$/static/images" />
     </key>
   </component>
@@ -100,20 +104,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707758177484</updated>
-    </task>
-    <task id="LOCAL-00002" summary="test page">
-      <created>1707915319627</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1707915319627</updated>
-    </task>
-    <task id="LOCAL-00003" summary="edit bg">
-      <created>1707916544780</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1707916544780</updated>
     </task>
     <task id="LOCAL-00004" summary="edit page">
       <created>1708540697411</created>
@@ -444,7 +434,21 @@
       <option name="project" value="LOCAL" />
       <updated>1713615299046</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="editing css file">
+      <created>1713628749871</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1713628749872</updated>
+    </task>
+    <task id="LOCAL-00052" summary="editing css file">
+      <created>1713641517234</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1713641517234</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -482,8 +486,8 @@
     <MESSAGE value="add button to topic`s page" />
     <MESSAGE value="add the new page with news" />
     <MESSAGE value="editing" />
-    <MESSAGE value="editing css file" />
     <MESSAGE value="create new page" />
-    <option name="LAST_COMMIT_MESSAGE" value="create new page" />
+    <MESSAGE value="editing css file" />
+    <option name="LAST_COMMIT_MESSAGE" value="editing css file" />
   </component>
 </project>
