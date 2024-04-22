@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bbbd417-eccf-42a2-974e-16c3b3674438" name="Changes" comment="edit main.py">
+    <list default="true" id="5bbbd417-eccf-42a2-974e-16c3b3674438" name="Changes" comment="editing file">
       <change afterPath="$PROJECT_DIR$/parser/keys.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/parser/session_name.session" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/technical_task.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/sun_battery.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/technologies.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/trash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/trash_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/wind_farms.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/technologies.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/test.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +66,8 @@
       <recent name="$PROJECT_DIR$/static/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/parser" />
       <recent name="$PROJECT_DIR$/static/images" />
+      <recent name="$PROJECT_DIR$/parser" />
     </key>
   </component>
   <component name="RunManager" selected="Python.main">
@@ -124,34 +132,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707758177484</updated>
-    </task>
-    <task id="LOCAL-00009" summary="edit">
-      <created>1709669727503</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1709669727503</updated>
-    </task>
-    <task id="LOCAL-00010" summary="add space">
-      <created>1709735402490</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1709735402490</updated>
-    </task>
-    <task id="LOCAL-00011" summary="0">
-      <created>1709818600930</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1709818600930</updated>
-    </task>
-    <task id="LOCAL-00012" summary="edit bg">
-      <created>1709820712074</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1709820712074</updated>
     </task>
     <task id="LOCAL-00013" summary="edit bg">
       <created>1709820722457</created>
@@ -468,7 +448,35 @@
       <option name="project" value="LOCAL" />
       <updated>1713797099993</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="create technical task">
+      <created>1713808521600</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1713808521600</updated>
+    </task>
+    <task id="LOCAL-00059" summary="create requirements.txt">
+      <created>1713808706054</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1713808706054</updated>
+    </task>
+    <task id="LOCAL-00060" summary="editing file">
+      <created>1713808742047</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1713808742047</updated>
+    </task>
+    <task id="LOCAL-00061" summary="editing file">
+      <created>1713808893273</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1713808893273</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -483,9 +491,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="editing css" />
-    <MESSAGE value="creating a forum page" />
-    <MESSAGE value="creating a topic page" />
     <MESSAGE value="creating a new page" />
     <MESSAGE value="edit some pages" />
     <MESSAGE value="e" />
@@ -508,6 +513,9 @@
     <MESSAGE value="edit" />
     <MESSAGE value="editing parser" />
     <MESSAGE value="edit main.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit main.py" />
+    <MESSAGE value="create technical task" />
+    <MESSAGE value="create requirements.txt" />
+    <MESSAGE value="editing file" />
+    <option name="LAST_COMMIT_MESSAGE" value="editing file" />
   </component>
 </project>

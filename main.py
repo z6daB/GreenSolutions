@@ -187,6 +187,11 @@ def house():
     return render_template('house.html')
 
 
+@app.route('/technologies')
+def technologies():
+    return render_template('technologies.html')
+
+
 @app.errorhandler(404)
 def error404(error):
     return render_template('404.html')
