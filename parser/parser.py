@@ -2,7 +2,6 @@ from telethon.sync import TelegramClient
 from keys import api_id, api_hash
 from sqlalchemy import create_engine, Table, Column, Integer, String, MetaData, select
 from sqlalchemy.orm import sessionmaker
-import schedule
 import time
 
 
