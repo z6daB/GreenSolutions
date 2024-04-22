@@ -181,9 +181,11 @@ def news_item(id):
     item = db_sess.query(News).filter(News.id == id).scalar()
     return render_template('news_item.html', item=item)
 
+
 @app.route('/house')
 def house():
     return render_template('house.html')
+
 
 @app.errorhandler(404)
 def error404(error):
