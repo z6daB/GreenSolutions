@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bbbd417-eccf-42a2-974e-16c3b3674438" name="Changes" comment="editing file">
+    <list default="true" id="5bbbd417-eccf-42a2-974e-16c3b3674438" name="Changes" comment="creating new page about technologies">
       <change afterPath="$PROJECT_DIR$/parser/keys.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/parser/session_name.session" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/sun_battery.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/technologies.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/trash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/trash_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/wind_farms.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/technologies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/recommendations.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/recommendations.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/test.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,13 +126,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707758177484</updated>
-    </task>
-    <task id="LOCAL-00013" summary="edit bg">
-      <created>1709820722457</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1709820722457</updated>
     </task>
     <task id="LOCAL-00014" summary="adding the ability to log in to your account">
       <created>1709827255934</created>
@@ -476,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713808893273</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="creating new page about technologies">
+      <created>1713810882490</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1713810882490</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -491,7 +485,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="creating a new page" />
     <MESSAGE value="edit some pages" />
     <MESSAGE value="e" />
     <MESSAGE value="editing some code" />
@@ -516,6 +509,7 @@
     <MESSAGE value="create technical task" />
     <MESSAGE value="create requirements.txt" />
     <MESSAGE value="editing file" />
-    <option name="LAST_COMMIT_MESSAGE" value="editing file" />
+    <MESSAGE value="creating new page about technologies" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating new page about technologies" />
   </component>
 </project>
