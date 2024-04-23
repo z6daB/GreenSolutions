@@ -197,6 +197,11 @@ def recommendations():
     return render_template('recommendations.html')
 
 
+@app.route('/reviews')
+def reviews():
+    return render_template('reviews.html')
+
+
 @app.errorhandler(404)
 def error404(error):
     return render_template('404.html')
