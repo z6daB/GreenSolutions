@@ -78,7 +78,8 @@
                     борьбе с изменением климата и обеспечении устойчивого развития.</p>
             </div>
             <div class="col-md-6">
-                <img src="{{ url_for('static', filename='images/technologies.jpg') }}" class="featurette-image img-fluid"
+                <img src="{{ url_for('static', filename='images/technologies.jpg') }}"
+                     class="featurette-image img-fluid"
                      alt="...">
             </div>
         </div>
@@ -102,9 +103,36 @@
                     <br>3. Компостируйте органические отходы и перерабатывайте другие отходы.
                     <br>4. Используйте умные системы управления для оптимизации потребления ресурсов.
                     <br>5. Создавайте зеленые зоны на крышах и в помещениях.
-                    </div>
+            </div>
         </div>
     </section>
-
 </main>
+<section id="featurette2" class="container mt-4">
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <!-- Text -->
+            <h2 class="featurette-heading">Как из квартиры сделать экодом?</h2>
+            <p class="lead">Чтобы сделать из квартиры экодом, следуйте этим шагам:
+                <br>1. Озеленение: добавьте живые растения, они очищают воздух и создают уют.
+                <br>2. Экологичные материалы: используйте натуральные материалы для отделки, например, лён для
+                утепления.
+                <br>3. Вентиляция: установите эффективную систему вентиляции для улучшения качества воздуха.
+                <br>4. Фильтры для воды: установите фильтры для очистки воды, чтобы избежать вредных примесей.
+                <br>5. Безопасное освещение: замените обычные лампы на светодиодные, они экономичнее и безопаснее.
+                <br>6. Отказ от токсичных моющих средств: используйте натуральные моющие средства, чтобы избежать
+                химических испарений.</p>
+        </div>
+        <div class="col-md-6">
+            <img src="{{ url_for('static', filename='images/apartment.jpg') }}" class="featurette-image img-fluid"
+                 alt="...">
+        </div>
+    </div>
+</section>
+<!--footer-->
+<hr class="featurette-divider">
+<footer class="footer mt-auto py-3 bg-light">
+    <div class="container">
+        <span class="text-muted">Сохраняем природу, меняемся к лучшему!</span>
+    </div>
+</footer>
 {% endblock %}

@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bbbd417-eccf-42a2-974e-16c3b3674438" name="Changes" comment="edit">
+    <list default="true" id="5bbbd417-eccf-42a2-974e-16c3b3674438" name="Changes" comment="creating new page">
       <change afterPath="$PROJECT_DIR$/parser/keys.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/parser/session_name.session" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/reviews.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/technologies.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/technologies.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,13 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707758177484</updated>
-    </task>
-    <task id="LOCAL-00016" summary="add new button">
-      <created>1710618692808</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1710618692808</updated>
     </task>
     <task id="LOCAL-00017" summary="create new page and css file">
       <created>1710621566371</created>
@@ -469,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713900628633</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="creating new page">
+      <created>1713905035433</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1713905035433</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -507,8 +505,8 @@
     <MESSAGE value="create requirements.txt" />
     <MESSAGE value="editing file" />
     <MESSAGE value="creating new page about technologies" />
-    <MESSAGE value="creating new page" />
     <MESSAGE value="edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit" />
+    <MESSAGE value="creating new page" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating new page" />
   </component>
 </project>
